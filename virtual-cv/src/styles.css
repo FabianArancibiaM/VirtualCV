@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+.custom-app {
+    background-color: #6E2E8A;
+}
+.title-principal{
+    font-family: 'IBM Plex Serif', Bold 700 italic;
+    font-size: 80px;
+}
+.text-detail {
+    font-family: 'IBM Plex Serif', Light 300 italic;
+    font-size: 30px;
+}
