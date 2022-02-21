@@ -1,0 +1,12 @@
+<div class="container text-detail">
+  <div class="row custom-row" *ngFor="let item of jobsList">
+    <div class="col" *ngFor="let jobs of item">
+      <div class="card" id="mock">
+        <img *ngIf="jobs.image" [src]="jobs.image" class="card-img-top custom-image">
+        <div class="card-body">
+          <p class="card-text" [innerHtml]="jobs.title"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

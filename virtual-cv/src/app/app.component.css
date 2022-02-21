@@ -1,0 +1,11 @@
+.footer-custom {
+    background: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.foot-image {
+    text-align: end;
+}
